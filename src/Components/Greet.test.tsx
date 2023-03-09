@@ -8,7 +8,7 @@ describe('Describe greet',()=>{test('Greet renders correctly',()=>{
 })
 
 describe('nested describe',()=>{test('Greet render a name',()=>{
-    render(<Greet name="Pooja"/>)
-    const testelement = screen.getByText("Hello Pooja")
+    render(<Greet name="Pooja" Message="Welcome"/>)
+    const testelement = screen.getByText("Hello Pooja Welcome")
     expect(testelement).toBeInTheDocument()
 })})})

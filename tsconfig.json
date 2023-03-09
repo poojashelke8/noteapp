@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "../typescript-practice/src/Components/Counter.tsx"  ]
 }
